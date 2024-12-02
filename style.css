@@ -16,10 +16,12 @@ body * {
 #container {
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -37,6 +39,7 @@ body * {
 /*links */
 ul {
   list-style: none;
+  padding: 24px 0;
 
   display: flex;
   flex-direction: column;
@@ -66,3 +69,14 @@ ul li a:hover {
 
   border: 1.5px solid white;
 }
+
+/* social links */
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+
+  padding: 24px 0;
+  font-size: 24px;
+}
+
